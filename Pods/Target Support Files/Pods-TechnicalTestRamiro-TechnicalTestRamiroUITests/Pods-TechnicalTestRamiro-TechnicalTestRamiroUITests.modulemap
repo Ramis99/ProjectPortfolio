@@ -1,0 +1,6 @@
+framework module Pods_TechnicalTestRamiro_TechnicalTestRamiroUITests {
+  umbrella header "Pods-TechnicalTestRamiro-TechnicalTestRamiroUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

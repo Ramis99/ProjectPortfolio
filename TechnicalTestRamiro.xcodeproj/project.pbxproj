@@ -1,0 +1,888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30B803DD51DC7897F26716F8 /* Pods_TechnicalTestRamiro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73D50B937D5B0C3841E93E5 /* Pods_TechnicalTestRamiro.framework */; };
+		966385CB59CD8D88D2182499 /* Pods_TechnicalTestRamiro_TechnicalTestRamiroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A201FFE3050F9C96205B2B5 /* Pods_TechnicalTestRamiro_TechnicalTestRamiroUITests.framework */; };
+		DC61CDDE2BC6550600073766 /* CategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC61CDDC2BC6550600073766 /* CategoriesCollectionViewCell.swift */; };
+		DC61CDDF2BC6550600073766 /* CategoriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC61CDDD2BC6550600073766 /* CategoriesCollectionViewCell.xib */; };
+		DC61CDE22BC7026400073766 /* ProductsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC61CDE12BC7026400073766 /* ProductsTableViewCell.xib */; };
+		DC61CDE32BC7026400073766 /* ProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC61CDE02BC7026400073766 /* ProductsTableViewCell.swift */; };
+		DC61CDE62BC7085F00073766 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC61CDE52BC7085F00073766 /* ImageLoader.swift */; };
+		DC61CDE92BC70F4E00073766 /* DetailsProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC61CDE82BC70F4E00073766 /* DetailsProductViewController.xib */; };
+		DC61CDEA2BC70F4E00073766 /* DetailsProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC61CDE72BC70F4E00073766 /* DetailsProductViewController.swift */; };
+		DC61CDEC2BC70F9600073766 /* DetailsProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC61CDEB2BC70F9600073766 /* DetailsProductViewModel.swift */; };
+		DC61CDEE2BC740AC00073766 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC61CDED2BC740AC00073766 /* UserDefaultManager.swift */; };
+		DC61CDF02BC74A1500073766 /* InternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC61CDEF2BC74A1500073766 /* InternetConnection.swift */; };
+		DCEDF0B52BC5FB1B003BCC4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDF0B42BC5FB1B003BCC4F /* AppDelegate.swift */; };
+		DCEDF0B72BC5FB1B003BCC4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDF0B62BC5FB1B003BCC4F /* SceneDelegate.swift */; };
+		DCEDF0B92BC5FB1B003BCC4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDF0B82BC5FB1B003BCC4F /* ViewController.swift */; };
+		DCEDF0BC2BC5FB1B003BCC4F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DCEDF0BB2BC5FB1B003BCC4F /* Base */; };
+		DCEDF0BE2BC5FB1D003BCC4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCEDF0BD2BC5FB1D003BCC4F /* Assets.xcassets */; };
+		DCEDF0C12BC5FB1D003BCC4F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DCEDF0C02BC5FB1D003BCC4F /* Base */; };
+		DCEDF0CC2BC5FB1E003BCC4F /* TechnicalTestRamiroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDF0CB2BC5FB1E003BCC4F /* TechnicalTestRamiroTests.swift */; };
+		DCEDF0D62BC5FB1E003BCC4F /* TechnicalTestRamiroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDF0D52BC5FB1E003BCC4F /* TechnicalTestRamiroUITests.swift */; };
+		DCEDF0D82BC5FB1E003BCC4F /* TechnicalTestRamiroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDF0D72BC5FB1E003BCC4F /* TechnicalTestRamiroUITestsLaunchTests.swift */; };
+		DCEDF0E92BC638F4003BCC4F /* ProductsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDF0E82BC638F4003BCC4F /* ProductsModel.swift */; };
+		DCEDF0EB2BC63989003BCC4F /* FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDF0EA2BC63989003BCC4F /* FetchData.swift */; };
+		DCEDF0ED2BC63AA4003BCC4F /* APIEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDF0EC2BC63AA4003BCC4F /* APIEndPoints.swift */; };
+		DCEDF0F12BC63E1D003BCC4F /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDF0F02BC63E1D003BCC4F /* ProductsViewModel.swift */; };
+		DCEDF0F42BC63FC0003BCC4F /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDF0F22BC63FC0003BCC4F /* ProductsViewController.swift */; };
+		DCEDF0F52BC63FC0003BCC4F /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCEDF0F32BC63FC0003BCC4F /* ProductsViewController.xib */; };
+		E96584A83DEEBB0539145B1D /* Pods_TechnicalTestRamiroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADD81487F7D54D89B7094B9 /* Pods_TechnicalTestRamiroTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCEDF0C82BC5FB1E003BCC4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCEDF0A92BC5FB1B003BCC4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCEDF0B02BC5FB1B003BCC4F;
+			remoteInfo = TechnicalTestRamiro;
+		};
+		DCEDF0D22BC5FB1E003BCC4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCEDF0A92BC5FB1B003BCC4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCEDF0B02BC5FB1B003BCC4F;
+			remoteInfo = TechnicalTestRamiro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A201FFE3050F9C96205B2B5 /* Pods_TechnicalTestRamiro_TechnicalTestRamiroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechnicalTestRamiro_TechnicalTestRamiroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A41FA4DABC1CA5C47A8D391 /* Pods-TechnicalTestRamiro-TechnicalTestRamiroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalTestRamiro-TechnicalTestRamiroUITests.release.xcconfig"; path = "Target Support Files/Pods-TechnicalTestRamiro-TechnicalTestRamiroUITests/Pods-TechnicalTestRamiro-TechnicalTestRamiroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5F7125ED00BCF08A02E1261D /* Pods-TechnicalTestRamiroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalTestRamiroTests.debug.xcconfig"; path = "Target Support Files/Pods-TechnicalTestRamiroTests/Pods-TechnicalTestRamiroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B96459E65485E3FD277BB48 /* Pods-TechnicalTestRamiro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalTestRamiro.release.xcconfig"; path = "Target Support Files/Pods-TechnicalTestRamiro/Pods-TechnicalTestRamiro.release.xcconfig"; sourceTree = "<group>"; };
+		AEC8AB535F91BD8C0EDFBBE3 /* Pods-TechnicalTestRamiro-TechnicalTestRamiroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalTestRamiro-TechnicalTestRamiroUITests.debug.xcconfig"; path = "Target Support Files/Pods-TechnicalTestRamiro-TechnicalTestRamiroUITests/Pods-TechnicalTestRamiro-TechnicalTestRamiroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C73D50B937D5B0C3841E93E5 /* Pods_TechnicalTestRamiro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechnicalTestRamiro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2376A8B1CFD31F0BF050A9D /* Pods-TechnicalTestRamiro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalTestRamiro.debug.xcconfig"; path = "Target Support Files/Pods-TechnicalTestRamiro/Pods-TechnicalTestRamiro.debug.xcconfig"; sourceTree = "<group>"; };
+		DC61CDDC2BC6550600073766 /* CategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC61CDDD2BC6550600073766 /* CategoriesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesCollectionViewCell.xib; sourceTree = "<group>"; };
+		DC61CDE02BC7026400073766 /* ProductsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewCell.swift; sourceTree = "<group>"; };
+		DC61CDE12BC7026400073766 /* ProductsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsTableViewCell.xib; sourceTree = "<group>"; };
+		DC61CDE52BC7085F00073766 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		DC61CDE72BC70F4E00073766 /* DetailsProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsProductViewController.swift; sourceTree = "<group>"; };
+		DC61CDE82BC70F4E00073766 /* DetailsProductViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsProductViewController.xib; sourceTree = "<group>"; };
+		DC61CDEB2BC70F9600073766 /* DetailsProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsProductViewModel.swift; sourceTree = "<group>"; };
+		DC61CDED2BC740AC00073766 /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		DC61CDEF2BC74A1500073766 /* InternetConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnection.swift; sourceTree = "<group>"; };
+		DCEDF0B12BC5FB1B003BCC4F /* TechnicalTestRamiro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechnicalTestRamiro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEDF0B42BC5FB1B003BCC4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCEDF0B62BC5FB1B003BCC4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCEDF0B82BC5FB1B003BCC4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCEDF0BB2BC5FB1B003BCC4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCEDF0BD2BC5FB1D003BCC4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCEDF0C02BC5FB1D003BCC4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCEDF0C22BC5FB1D003BCC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCEDF0C72BC5FB1E003BCC4F /* TechnicalTestRamiroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechnicalTestRamiroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEDF0CB2BC5FB1E003BCC4F /* TechnicalTestRamiroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnicalTestRamiroTests.swift; sourceTree = "<group>"; };
+		DCEDF0D12BC5FB1E003BCC4F /* TechnicalTestRamiroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechnicalTestRamiroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEDF0D52BC5FB1E003BCC4F /* TechnicalTestRamiroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnicalTestRamiroUITests.swift; sourceTree = "<group>"; };
+		DCEDF0D72BC5FB1E003BCC4F /* TechnicalTestRamiroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnicalTestRamiroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DCEDF0E82BC638F4003BCC4F /* ProductsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsModel.swift; sourceTree = "<group>"; };
+		DCEDF0EA2BC63989003BCC4F /* FetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchData.swift; sourceTree = "<group>"; };
+		DCEDF0EC2BC63AA4003BCC4F /* APIEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndPoints.swift; sourceTree = "<group>"; };
+		DCEDF0F02BC63E1D003BCC4F /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
+		DCEDF0F22BC63FC0003BCC4F /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		DCEDF0F32BC63FC0003BCC4F /* ProductsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsViewController.xib; sourceTree = "<group>"; };
+		EA882B7FDAAA5FC4E8B57405 /* Pods-TechnicalTestRamiroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalTestRamiroTests.release.xcconfig"; path = "Target Support Files/Pods-TechnicalTestRamiroTests/Pods-TechnicalTestRamiroTests.release.xcconfig"; sourceTree = "<group>"; };
+		FADD81487F7D54D89B7094B9 /* Pods_TechnicalTestRamiroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechnicalTestRamiroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCEDF0AE2BC5FB1B003BCC4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B803DD51DC7897F26716F8 /* Pods_TechnicalTestRamiro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEDF0C42BC5FB1E003BCC4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96584A83DEEBB0539145B1D /* Pods_TechnicalTestRamiroTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEDF0CE2BC5FB1E003BCC4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966385CB59CD8D88D2182499 /* Pods_TechnicalTestRamiro_TechnicalTestRamiroUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F6D6591E29B02CCE09E0568 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2376A8B1CFD31F0BF050A9D /* Pods-TechnicalTestRamiro.debug.xcconfig */,
+				7B96459E65485E3FD277BB48 /* Pods-TechnicalTestRamiro.release.xcconfig */,
+				AEC8AB535F91BD8C0EDFBBE3 /* Pods-TechnicalTestRamiro-TechnicalTestRamiroUITests.debug.xcconfig */,
+				1A41FA4DABC1CA5C47A8D391 /* Pods-TechnicalTestRamiro-TechnicalTestRamiroUITests.release.xcconfig */,
+				5F7125ED00BCF08A02E1261D /* Pods-TechnicalTestRamiroTests.debug.xcconfig */,
+				EA882B7FDAAA5FC4E8B57405 /* Pods-TechnicalTestRamiroTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		15C1679836C761BEBB6DDDCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C73D50B937D5B0C3841E93E5 /* Pods_TechnicalTestRamiro.framework */,
+				0A201FFE3050F9C96205B2B5 /* Pods_TechnicalTestRamiro_TechnicalTestRamiroUITests.framework */,
+				FADD81487F7D54D89B7094B9 /* Pods_TechnicalTestRamiroTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC61CDDB2BC654DF00073766 /* ProductsView */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDF0F22BC63FC0003BCC4F /* ProductsViewController.swift */,
+				DCEDF0F32BC63FC0003BCC4F /* ProductsViewController.xib */,
+				DC61CDDC2BC6550600073766 /* CategoriesCollectionViewCell.swift */,
+				DC61CDDD2BC6550600073766 /* CategoriesCollectionViewCell.xib */,
+				DC61CDE02BC7026400073766 /* ProductsTableViewCell.swift */,
+				DC61CDE12BC7026400073766 /* ProductsTableViewCell.xib */,
+				DC61CDE72BC70F4E00073766 /* DetailsProductViewController.swift */,
+				DC61CDE82BC70F4E00073766 /* DetailsProductViewController.xib */,
+			);
+			path = ProductsView;
+			sourceTree = "<group>";
+		};
+		DC61CDE42BC7084E00073766 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DC61CDE52BC7085F00073766 /* ImageLoader.swift */,
+				DC61CDED2BC740AC00073766 /* UserDefaultManager.swift */,
+				DC61CDEF2BC74A1500073766 /* InternetConnection.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DCEDF0A82BC5FB1B003BCC4F = {
+			isa = PBXGroup;
+			children = (
+				DCEDF0B32BC5FB1B003BCC4F /* TechnicalTestRamiro */,
+				DCEDF0CA2BC5FB1E003BCC4F /* TechnicalTestRamiroTests */,
+				DCEDF0D42BC5FB1E003BCC4F /* TechnicalTestRamiroUITests */,
+				DCEDF0B22BC5FB1B003BCC4F /* Products */,
+				0F6D6591E29B02CCE09E0568 /* Pods */,
+				15C1679836C761BEBB6DDDCF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCEDF0B22BC5FB1B003BCC4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDF0B12BC5FB1B003BCC4F /* TechnicalTestRamiro.app */,
+				DCEDF0C72BC5FB1E003BCC4F /* TechnicalTestRamiroTests.xctest */,
+				DCEDF0D12BC5FB1E003BCC4F /* TechnicalTestRamiroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCEDF0B32BC5FB1B003BCC4F /* TechnicalTestRamiro */ = {
+			isa = PBXGroup;
+			children = (
+				DC61CDE42BC7084E00073766 /* Utilities */,
+				DCEDF0E42BC637E8003BCC4F /* MVVM */,
+				DCEDF0EE2BC63D86003BCC4F /* APIEndPoints */,
+				DCEDF0EF2BC63DB3003BCC4F /* ServicesFetchData */,
+				DCEDF0B42BC5FB1B003BCC4F /* AppDelegate.swift */,
+				DCEDF0B62BC5FB1B003BCC4F /* SceneDelegate.swift */,
+				DCEDF0B82BC5FB1B003BCC4F /* ViewController.swift */,
+				DCEDF0BA2BC5FB1B003BCC4F /* Main.storyboard */,
+				DCEDF0BD2BC5FB1D003BCC4F /* Assets.xcassets */,
+				DCEDF0BF2BC5FB1D003BCC4F /* LaunchScreen.storyboard */,
+				DCEDF0C22BC5FB1D003BCC4F /* Info.plist */,
+			);
+			path = TechnicalTestRamiro;
+			sourceTree = "<group>";
+		};
+		DCEDF0CA2BC5FB1E003BCC4F /* TechnicalTestRamiroTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDF0CB2BC5FB1E003BCC4F /* TechnicalTestRamiroTests.swift */,
+			);
+			path = TechnicalTestRamiroTests;
+			sourceTree = "<group>";
+		};
+		DCEDF0D42BC5FB1E003BCC4F /* TechnicalTestRamiroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDF0D52BC5FB1E003BCC4F /* TechnicalTestRamiroUITests.swift */,
+				DCEDF0D72BC5FB1E003BCC4F /* TechnicalTestRamiroUITestsLaunchTests.swift */,
+			);
+			path = TechnicalTestRamiroUITests;
+			sourceTree = "<group>";
+		};
+		DCEDF0E42BC637E8003BCC4F /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDF0E52BC637F1003BCC4F /* Model */,
+				DCEDF0E72BC63807003BCC4F /* View */,
+				DCEDF0E62BC63800003BCC4F /* ViewModel */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		DCEDF0E52BC637F1003BCC4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDF0E82BC638F4003BCC4F /* ProductsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCEDF0E62BC63800003BCC4F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDF0F02BC63E1D003BCC4F /* ProductsViewModel.swift */,
+				DC61CDEB2BC70F9600073766 /* DetailsProductViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DCEDF0E72BC63807003BCC4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC61CDDB2BC654DF00073766 /* ProductsView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DCEDF0EE2BC63D86003BCC4F /* APIEndPoints */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDF0EC2BC63AA4003BCC4F /* APIEndPoints.swift */,
+			);
+			path = APIEndPoints;
+			sourceTree = "<group>";
+		};
+		DCEDF0EF2BC63DB3003BCC4F /* ServicesFetchData */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDF0EA2BC63989003BCC4F /* FetchData.swift */,
+			);
+			path = ServicesFetchData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCEDF0B02BC5FB1B003BCC4F /* TechnicalTestRamiro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCEDF0DB2BC5FB1E003BCC4F /* Build configuration list for PBXNativeTarget "TechnicalTestRamiro" */;
+			buildPhases = (
+				D5ACE2C233605CCE98418B60 /* [CP] Check Pods Manifest.lock */,
+				DCEDF0AD2BC5FB1B003BCC4F /* Sources */,
+				DCEDF0AE2BC5FB1B003BCC4F /* Frameworks */,
+				DCEDF0AF2BC5FB1B003BCC4F /* Resources */,
+				7BE3158309E2B4D3102CDE7C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechnicalTestRamiro;
+			productName = TechnicalTestRamiro;
+			productReference = DCEDF0B12BC5FB1B003BCC4F /* TechnicalTestRamiro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCEDF0C62BC5FB1E003BCC4F /* TechnicalTestRamiroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCEDF0DE2BC5FB1E003BCC4F /* Build configuration list for PBXNativeTarget "TechnicalTestRamiroTests" */;
+			buildPhases = (
+				7E1ACA82F3DE165D05B32D33 /* [CP] Check Pods Manifest.lock */,
+				DCEDF0C32BC5FB1E003BCC4F /* Sources */,
+				DCEDF0C42BC5FB1E003BCC4F /* Frameworks */,
+				DCEDF0C52BC5FB1E003BCC4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCEDF0C92BC5FB1E003BCC4F /* PBXTargetDependency */,
+			);
+			name = TechnicalTestRamiroTests;
+			productName = TechnicalTestRamiroTests;
+			productReference = DCEDF0C72BC5FB1E003BCC4F /* TechnicalTestRamiroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCEDF0D02BC5FB1E003BCC4F /* TechnicalTestRamiroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCEDF0E12BC5FB1E003BCC4F /* Build configuration list for PBXNativeTarget "TechnicalTestRamiroUITests" */;
+			buildPhases = (
+				360728D540E78198290D9353 /* [CP] Check Pods Manifest.lock */,
+				DCEDF0CD2BC5FB1E003BCC4F /* Sources */,
+				DCEDF0CE2BC5FB1E003BCC4F /* Frameworks */,
+				DCEDF0CF2BC5FB1E003BCC4F /* Resources */,
+				C0E31E03866F572416F48D8D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCEDF0D32BC5FB1E003BCC4F /* PBXTargetDependency */,
+			);
+			name = TechnicalTestRamiroUITests;
+			productName = TechnicalTestRamiroUITests;
+			productReference = DCEDF0D12BC5FB1E003BCC4F /* TechnicalTestRamiroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCEDF0A92BC5FB1B003BCC4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					DCEDF0B02BC5FB1B003BCC4F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					DCEDF0C62BC5FB1E003BCC4F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DCEDF0B02BC5FB1B003BCC4F;
+					};
+					DCEDF0D02BC5FB1E003BCC4F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DCEDF0B02BC5FB1B003BCC4F;
+					};
+				};
+			};
+			buildConfigurationList = DCEDF0AC2BC5FB1B003BCC4F /* Build configuration list for PBXProject "TechnicalTestRamiro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCEDF0A82BC5FB1B003BCC4F;
+			productRefGroup = DCEDF0B22BC5FB1B003BCC4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCEDF0B02BC5FB1B003BCC4F /* TechnicalTestRamiro */,
+				DCEDF0C62BC5FB1E003BCC4F /* TechnicalTestRamiroTests */,
+				DCEDF0D02BC5FB1E003BCC4F /* TechnicalTestRamiroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCEDF0AF2BC5FB1B003BCC4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEDF0BE2BC5FB1D003BCC4F /* Assets.xcassets in Resources */,
+				DC61CDE22BC7026400073766 /* ProductsTableViewCell.xib in Resources */,
+				DC61CDE92BC70F4E00073766 /* DetailsProductViewController.xib in Resources */,
+				DC61CDDF2BC6550600073766 /* CategoriesCollectionViewCell.xib in Resources */,
+				DCEDF0C12BC5FB1D003BCC4F /* Base in Resources */,
+				DCEDF0F52BC63FC0003BCC4F /* ProductsViewController.xib in Resources */,
+				DCEDF0BC2BC5FB1B003BCC4F /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEDF0C52BC5FB1E003BCC4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEDF0CF2BC5FB1E003BCC4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		360728D540E78198290D9353 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TechnicalTestRamiro-TechnicalTestRamiroUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BE3158309E2B4D3102CDE7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TechnicalTestRamiro/Pods-TechnicalTestRamiro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TechnicalTestRamiro/Pods-TechnicalTestRamiro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TechnicalTestRamiro/Pods-TechnicalTestRamiro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E1ACA82F3DE165D05B32D33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TechnicalTestRamiroTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0E31E03866F572416F48D8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TechnicalTestRamiro-TechnicalTestRamiroUITests/Pods-TechnicalTestRamiro-TechnicalTestRamiroUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TechnicalTestRamiro-TechnicalTestRamiroUITests/Pods-TechnicalTestRamiro-TechnicalTestRamiroUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TechnicalTestRamiro-TechnicalTestRamiroUITests/Pods-TechnicalTestRamiro-TechnicalTestRamiroUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5ACE2C233605CCE98418B60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TechnicalTestRamiro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCEDF0AD2BC5FB1B003BCC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC61CDDE2BC6550600073766 /* CategoriesCollectionViewCell.swift in Sources */,
+				DC61CDE32BC7026400073766 /* ProductsTableViewCell.swift in Sources */,
+				DCEDF0B92BC5FB1B003BCC4F /* ViewController.swift in Sources */,
+				DCEDF0B52BC5FB1B003BCC4F /* AppDelegate.swift in Sources */,
+				DCEDF0F42BC63FC0003BCC4F /* ProductsViewController.swift in Sources */,
+				DC61CDE62BC7085F00073766 /* ImageLoader.swift in Sources */,
+				DC61CDEE2BC740AC00073766 /* UserDefaultManager.swift in Sources */,
+				DCEDF0F12BC63E1D003BCC4F /* ProductsViewModel.swift in Sources */,
+				DC61CDEA2BC70F4E00073766 /* DetailsProductViewController.swift in Sources */,
+				DC61CDF02BC74A1500073766 /* InternetConnection.swift in Sources */,
+				DCEDF0ED2BC63AA4003BCC4F /* APIEndPoints.swift in Sources */,
+				DCEDF0EB2BC63989003BCC4F /* FetchData.swift in Sources */,
+				DCEDF0B72BC5FB1B003BCC4F /* SceneDelegate.swift in Sources */,
+				DCEDF0E92BC638F4003BCC4F /* ProductsModel.swift in Sources */,
+				DC61CDEC2BC70F9600073766 /* DetailsProductViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEDF0C32BC5FB1E003BCC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEDF0CC2BC5FB1E003BCC4F /* TechnicalTestRamiroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEDF0CD2BC5FB1E003BCC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEDF0D82BC5FB1E003BCC4F /* TechnicalTestRamiroUITestsLaunchTests.swift in Sources */,
+				DCEDF0D62BC5FB1E003BCC4F /* TechnicalTestRamiroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCEDF0C92BC5FB1E003BCC4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCEDF0B02BC5FB1B003BCC4F /* TechnicalTestRamiro */;
+			targetProxy = DCEDF0C82BC5FB1E003BCC4F /* PBXContainerItemProxy */;
+		};
+		DCEDF0D32BC5FB1E003BCC4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCEDF0B02BC5FB1B003BCC4F /* TechnicalTestRamiro */;
+			targetProxy = DCEDF0D22BC5FB1E003BCC4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCEDF0BA2BC5FB1B003BCC4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCEDF0BB2BC5FB1B003BCC4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCEDF0BF2BC5FB1D003BCC4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCEDF0C02BC5FB1D003BCC4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCEDF0D92BC5FB1E003BCC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCEDF0DA2BC5FB1E003BCC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCEDF0DC2BC5FB1E003BCC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2376A8B1CFD31F0BF050A9D /* Pods-TechnicalTestRamiro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TechnicalTestRamiro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechnicalTestRamiro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCEDF0DD2BC5FB1E003BCC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B96459E65485E3FD277BB48 /* Pods-TechnicalTestRamiro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TechnicalTestRamiro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechnicalTestRamiro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCEDF0DF2BC5FB1E003BCC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F7125ED00BCF08A02E1261D /* Pods-TechnicalTestRamiroTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechnicalTestRamiroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechnicalTestRamiro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TechnicalTestRamiro";
+			};
+			name = Debug;
+		};
+		DCEDF0E02BC5FB1E003BCC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA882B7FDAAA5FC4E8B57405 /* Pods-TechnicalTestRamiroTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechnicalTestRamiroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechnicalTestRamiro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TechnicalTestRamiro";
+			};
+			name = Release;
+		};
+		DCEDF0E22BC5FB1E003BCC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC8AB535F91BD8C0EDFBBE3 /* Pods-TechnicalTestRamiro-TechnicalTestRamiroUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechnicalTestRamiroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechnicalTestRamiro;
+			};
+			name = Debug;
+		};
+		DCEDF0E32BC5FB1E003BCC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A41FA4DABC1CA5C47A8D391 /* Pods-TechnicalTestRamiro-TechnicalTestRamiroUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechnicalTestRamiroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechnicalTestRamiro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCEDF0AC2BC5FB1B003BCC4F /* Build configuration list for PBXProject "TechnicalTestRamiro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEDF0D92BC5FB1E003BCC4F /* Debug */,
+				DCEDF0DA2BC5FB1E003BCC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCEDF0DB2BC5FB1E003BCC4F /* Build configuration list for PBXNativeTarget "TechnicalTestRamiro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEDF0DC2BC5FB1E003BCC4F /* Debug */,
+				DCEDF0DD2BC5FB1E003BCC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCEDF0DE2BC5FB1E003BCC4F /* Build configuration list for PBXNativeTarget "TechnicalTestRamiroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEDF0DF2BC5FB1E003BCC4F /* Debug */,
+				DCEDF0E02BC5FB1E003BCC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCEDF0E12BC5FB1E003BCC4F /* Build configuration list for PBXNativeTarget "TechnicalTestRamiroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEDF0E22BC5FB1E003BCC4F /* Debug */,
+				DCEDF0E32BC5FB1E003BCC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCEDF0A92BC5FB1B003BCC4F /* Project object */;
+}
